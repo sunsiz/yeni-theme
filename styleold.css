@@ -1,0 +1,112 @@
+/*
+Theme Name: Yeni
+Theme URI: https://www.musulmanlar.com 
+Description: This is outstanding WP Blog theme developed on Material Design for Bootstrap 4
+Version: 1
+Author: Namsiz Musulman
+Author URI: https://musulmanlar.com
+*/
+/*@import url(//db.onlinewebfonts.com/c/ca5d7c89a2f6c1eb8b9bdabca06339b7?family=ALKATIP+Tor);
+@font-face {font-family: "ALKATIP Tor";
+    src: url("//db.onlinewebfonts.com/t/ca5d7c89a2f6c1eb8b9bdabca06339b7.eot");
+    src: url("//db.onlinewebfonts.com/t/ca5d7c89a2f6c1eb8b9bdabca06339b7.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ca5d7c89a2f6c1eb8b9bdabca06339b7.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/ca5d7c89a2f6c1eb8b9bdabca06339b7.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/ca5d7c89a2f6c1eb8b9bdabca06339b7.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/ca5d7c89a2f6c1eb8b9bdabca06339b7.svg#ALKATIP Tor") format("svg");
+}
+@font-face {font-family: "ALKATIP Tor";
+  src: url("../fonts/ALKATIP Tor.eot"); /* IE9* /
+  src: url("../fonts/ALKATIP Tor.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 * /
+  url("../fonts/ALKATIP Tor.woff2") format("woff2"), /* chrome、firefox * /
+  url("../fonts/ALKATIP Tor.woff") format("woff"), /* chrome、firefox * /
+  url("../fonts/ALKATIP Tor.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+* /
+  url("../fonts/ALKATIP Tor.svg#ALKATIP Tor") format("svg"); /* iOS 4.1- * /
+}
+@font-face {font-family: "Uyghur Ekran";
+  src: url("../fonts/Uyghur Ekran.eot"); /* IE9* /
+  src: url("../fonts/Uyghur Ekran.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 * /
+  url("../fonts/Uyghur Ekran.woff2") format("woff2"), /* chrome、firefox * /
+  url("../fonts/Uyghur Ekran.woff") format("woff"), /* chrome、firefox * /
+  url("../fonts/Uyghur Ekran.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+* /
+  url("../fonts/Uyghur Ekran.svg#ALKATIP Tor") format("svg"); /* iOS 4.1- * /
+}
+@font-face {
+  font-family: 'UKIJEkran';
+  src: url('../fonts/UKIJEkran.eot?#iefix') format('embedded-opentype'),  url('../fonts/UKIJEkran.woff') format('woff'), url('../fonts/UKIJEkran.ttf')  format('truetype'), url('../fonts/UKIJEkran.svg#UKIJEkran') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face { font-family: Ukij; src: url(../fonts/UKIJTUZ0.eot);}
+@font-face { font-family: Ukij; src: url(../fonts/UKIJTuz.ttf);}
+*/
+main {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.cat-item, #sidebar {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #4285F4;
+  /*border: 1px solid #ddd;*/
+  color:  #fff;
+  font-weight:  bold;
+  webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+  box-shadow: 0 3px 12px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+#sidebar>a {color:white;}
+/*.current-cat{
+  z-index: 2;
+  color: #fff;
+  background-color: #0091ea;
+  border-color: #0091ea;
+}
+.current-cat>a{
+  color: #fff;  
+}*/
+.widget-item ul, .category-posts-internal, #menu-quran-menu, .sidebar>ul {
+  padding: 9px;
+  list-style-type: none;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);;
+}
+.sidebar li {
+  padding: 9px!important;
+  margin: auto!important;
+  border: 1px solid whitesmoke!important;
+}/*
+#menu-quran-menu>li:last-child, .sidebar li:last-child {border-bottom: none;}
+#menu-quran-menu>li>a {
+  color: black;
+}
+.cat-post-item, .cat-post-title {
+	padding:12px;
+	line-height: 1;
+}
+#category-posts-2-internal .cat-post-item {border-bottom: 1px solid #ccc;	list-style: none; list-style-type: none; padding: 12px;}
+#category-posts-2-internal .cat-post-item:last-child {border-bottom: none;}*/
+.sidebar li:hover {
+	background-color: #2196f3;/*#64b5f6;#0091ea;*/
+    webkit-transition: -webkit-box-shadow .55s;
+    transition: -webkit-box-shadow .55s;
+    transition: box-shadow .55s;
+    transition: box-shadow .55s,-webkit-box-shadow .55s;
+}
+.cat-post-item:hover a, .sidebar li:hover a {
+    color: #fff;
+}
+.page-footer title {
+	padding: 30px;
+}
+.post-wrapper {
+    box-shadow: 0 12px 38px -16px rgba(0, 0, 0, 0.56), 0 1px 5px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px -5px rgba(0, 0, 0, 0.2);
+    padding: 18px;
+    margin: 2px 12px;
+    border-radius: 3px;
+}
+.pagination {
+display: inline-flex;
+}
+.rtl { direction: rtl!important;}
+.social-section a, #goruntuleme { padding:10px;}
